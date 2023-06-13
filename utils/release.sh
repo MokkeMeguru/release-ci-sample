@@ -6,6 +6,8 @@ rm -rf \
     utils
 
 git init &&
+    git config user.email "meguru.mokke@gmail.com" &&
+    git config user.name "MeguruMokke" &&
     git add -A &&
     git commit -m "Welcome to App"
 
