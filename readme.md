@@ -1,3 +1,3 @@
 ## release ci sample
 
-release ci のサンプルだよー
+release ci のサンプル
