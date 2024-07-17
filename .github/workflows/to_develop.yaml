@@ -3,8 +3,8 @@ name: release to main
 on:
   pull_request:
     types: [opened, synchronize]
-  branches:
-    - develop
+    branches:
+      - develop
 
 jobs:
   checkout:
