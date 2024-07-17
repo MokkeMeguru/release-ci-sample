@@ -1,0 +1,19 @@
+name: release to main
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+  branches:
+    - develop
+
+jobs:
+  checkout:
+    name: hello_for_develop
+    runs-on:
+      labels: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+      - name: echo hello
+        run: |
+          echo "hello world for release to develop"
